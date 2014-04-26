@@ -28,9 +28,11 @@ function cfp_translation()
 	if (CFPsave())
         echo "<div id='message' class='updated fade'><p>".__("Options successfully saved", "cfp")."</p></div>";
 		$CFPoption = CFPgetOptions();
+		$url = 'http://www.banglardokan.com/blog/recent/project/custom-functions-plugin-2256/';
 echo 
 "<div class='wrap'>
           <h2>".__("\"Custom Functions Plugin\" Settings", "cfp")."</h2>
+		  <ul>".sprintf(__("For more help or report bug pleasse visit <a href= '%s' title='Custom Functions Plugin' target='_blank'>Custom Functions Plugin</a>", "cfp"),esc_url($url))."</ul>
 		  <h5>".__("Do not forget to click \"Save Options\" at the bottom after your change", "cfp")."</h5>
 		  <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'>
 		<input type='hidden' name='cmd' value='_donations'>
@@ -130,6 +132,7 @@ echo
           <tr><td colspan='2'><span><input class='button' type='submit' name='cfp_save_options' value='".__("Save Options", "cfp")."' /></span></td></tr>
           </table>
 		  </form>
+		  <ul>".sprintf(__("For more help or report bug pleasse visit <a href= '%s' title='Custom Functions Plugin' target='_blank'>Custom Functions Plugin</a>", "cfp"),esc_url($url))."</ul>
           </div>";
 		  }
 		  
