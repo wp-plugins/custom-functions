@@ -1,6 +1,6 @@
 === Custom Functions Plugin ===
 Contributors: shamim51
-Tags: custom functions plugin,custom function,function,wordpress function
+Tags: custom functions plugin,custom function,function,wordpress function,widget,plugin,sidebar,shortcode,page
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4HKBQ3QFSCPHJ&lc=US&item_name=Custom%20Functions%20Plugin&item_number=Custom%20Functions%20Plugin&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 2.0
 Tested up to: 4.2
